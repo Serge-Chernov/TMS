@@ -5,7 +5,7 @@ public class Main {
 
         int[] arr = {1, 4, 1331, 65, 374, 223322, 43, 14, -54, 536};
 
-        //минимальное значение массива
+        //Минимальное значение массива
 
         int min = arr[0];
 
@@ -16,7 +16,7 @@ public class Main {
         }
         System.out.println(min);
 
-        //максимальное значение массива
+        //Максимальное значение массива
 
         int max = arr[0];
 
@@ -27,7 +27,7 @@ public class Main {
         }
         System.out.println(max);
 
-        //выводим четные числа
+        //Выводим четные числа
 
         for (int even: arr) {
             if (even%2==0) {
@@ -35,7 +35,7 @@ public class Main {
             }
         }
 
-        //выводим нечетные числа
+        //Выводим нечетные числа
 
         for (int odd: arr) {
             if (odd%2!=0) {
@@ -43,7 +43,7 @@ public class Main {
             }
         }
 
-        //выводим числа-палиндромы
+        //Выводим числа-палиндромы
 
         String[] strarr = new String[arr.length];
         System.out.print("Palindrome: ");
@@ -60,7 +60,7 @@ public class Main {
         }
         System.out.println(" ");
 
-        //выводим массив в порядке возрастания
+        //Выводим массив в порядке возрастания
 
         Arrays.sort(arr);
 
